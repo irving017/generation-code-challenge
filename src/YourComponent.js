@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
+import Favorites from './components/Favorites'
 
 /*
 * Use this component as a launching-pad to build your functionality.
 *
 */
 class YourComponent extends Component {
+  
+  
   render() {
     return (
-      <div style={divStyle}>
-        <h1> Put your solution here!</h1>
+      <div>
+      <Favorites/>
       </div>
     );
   }
